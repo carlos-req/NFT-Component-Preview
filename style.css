@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "outfit", sans-serif;
+  background-color: hsl(217, 54%, 11%);
+}
+.component {
+  display: block;
+  margin: 50px auto;
+  width: 300px;
+  height: 550px;
+  background-color: hsl(216, 50%, 16%);
+  padding: 15px;
+  border-radius: 10px;
+  z-index: 1;
+}
+.main-image {
+  width: 300px;
+  border-radius: 10px;
+}
+a:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600px;
+  font-size: 18px;
+  padding: 20px 0px;
+}
+.main-content p {
+  color: hsl(215, 51%, 70%);
+  font-weight: 300px;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+.secondary-content {
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+}
+.eth {
+  display: inline;
+  padding-right: 30px;
+}
+.days {
+  display: inline;
+  padding-left: 80px;
+}
+.secondary-content p {
+  color: hsl(215, 51%, 70%);
+  display: inline;
+}
+#price {
+  color: hsl(178, 100%, 50%);
+}
+.creator-info {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+}
+.creator-info img {
+  width: 30px;
+  border-radius: 100px;
+  border: 1px solid white;
+}
+.creator-info p {
+  color: hsl(215, 51%, 70%);
+  margin-left: 10px;
+}
+span {
+  color: hsl(0, 0%, 100%);
+}
